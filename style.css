@@ -1,0 +1,230 @@
+.container {
+
+    width: 50vh;
+    margin-right: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    
+
+}
+
+.container div {
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    align-items: center;
+
+
+
+}
+
+#Git {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    display: none;
+}
+
+#Lin {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    display: none;
+}
+
+#Insta {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    display: none;
+}
+
+ @keyframes display{
+
+    from {
+        
+      color:rgb(84, 84, 192);
+      font-size: x-large;
+    }
+to {
+    
+  color: maroon;
+  font-size: xx-large;
+}
+
+} 
+
+img {
+    width: 100px;
+    height: 100px;
+
+    border-radius: 50%;
+}
+
+#main:hover {
+    box-shadow: 5px 5px 8px rgba(0, 0, 0, 0.5);
+}
+
+#Insta:hover {
+    box-shadow: 5px 5px 8px rgba(0, 0, 0, 0.5);
+}
+
+#Lin:hover {
+    box-shadow: 5px 5px 8px rgba(0, 0, 0, 0.5);
+}
+
+#Git:hover {
+    box-shadow: 5px 5px 8px rgba(0, 0, 0, 0.5);
+}
+
+#Insta img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+
+}
+
+#Lin img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+
+#Git img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+
+#main{
+    margin-top: 4px;
+    /* margin-right: 300px; */
+    font-size: x-small;
+}
+
+#main p{
+    color: black;
+    box-shadow: 5px 3px 8px rgba(0, 0, 0, 0.5);
+    padding: 2px 2px 2px 7px ;
+    border-radius: 4px;
+text-transform: capitalize;
+background-color:rgb(170, 239, 241);}
+
+
+  .container-fluid
+  {
+    align-items: center;
+  }
+
+  .card-container{
+    display: flex;
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+  
+  #card{
+    margin: 20px ;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+    /* padding-left: 10px; */
+  }
+
+  #card2{
+    margin: 20px ;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+    /* padding-left: 10px; */
+  }
+
+  #card3{
+    margin: 20px ;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+    /* padding-left: 10px; */
+  }
+
+  #card4{
+margin-left: 300px;
+box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+margin-right: 20px;
+  }
+
+  h5{
+    background-color: aquamarine;
+    margin-bottom: 20px;
+    border-radius: 5px;
+  }
+
+  body{
+    background-color: cornsilk;
+  }
+  
+  #card3 span button{
+    margin-left: 80px;
+  }
+
+  #position{
+    position: absolute;
+    left: 960px;
+    top: 118px;
+    font-size: x-large;
+    color:rgb(84, 84, 192);
+    font-weight: bold;
+
+  }
+
+#position:hover {
+  text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.5);
+  animation-name: display;
+  animation-duration: 2s;
+  animation-direction:alternate;
+  animation-iteration-count: infinite;
+  
+}
+
+body{
+  /* background-color: cyan !important; */
+  background-image: url("Bg.png");
+  background-size: cover;
+}
+
+/* simon summary */
+
+.btn1{
+
+  border-radius: 20%;
+  border: solid  10px ;
+  width: 150px;
+  height: 150px;
+  margin: 2.5rem;
+}
+
+.btn-container1{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+
+}
+
+.red{
+  background-color: red;
+}
+
+.yellow{
+  background-color: yellow;
+
+}
+
+.blue{
+  background-color: blue;
+}
+
+.green{
+  background-color: green;
+}
+
+.flash{
+  background-color: white;
+}
+#game{
+  display: inline-block;
+}
